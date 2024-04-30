@@ -55,4 +55,8 @@
   .navbar-nav .nav-item:not(:last-child) {
     padding-right: 1rem;
   }
+}
+.dropdown-item:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(68, 68, 68);
 }/*# sourceMappingURL=style.css.map */
