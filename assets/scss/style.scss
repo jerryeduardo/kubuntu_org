@@ -1,0 +1,54 @@
+@import 'reset';
+@import 'variables';
+
+.w-brand img{
+    width: 190px;
+}
+
+.bg-nav{
+    background-color: $primary-color;
+}
+
+.bg-header{
+    background-color: $bg-header-color;
+}
+
+.bg-footer{
+    background-color: $bg-footer-color;
+}
+
+.tl-color h1{
+    color: $secondary-color;
+}
+
+.tx-color h2, .tx-color p{
+    color: $tx-color;
+}
+
+.ft-szh1{
+    font-size: 28px;
+}
+
+.ft-szh2{
+    font-size: 20px;
+}
+
+.ft-sz16{
+    font-size: 16px;
+}
+
+.ft-sz14{
+    font-size: 14px;
+}
+
+.ft-sz12{
+    font-size: 12px;
+}
+
+/* Modificações no Bootstrap */
+
+@media (min-width: 992px){
+    .navbar-nav .nav-item:not(:last-child){
+        padding-right: 1rem;
+    }
+}

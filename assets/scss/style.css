@@ -1,0 +1,58 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.w-brand img {
+  width: 190px;
+}
+
+.bg-nav {
+  background-color: rgb(255, 255, 255);
+}
+
+.bg-header {
+  background-color: rgb(206, 235, 255);
+}
+
+.bg-footer {
+  background-color: rgb(232, 234, 235);
+}
+
+.tl-color h1 {
+  color: rgb(68, 68, 68);
+}
+
+.tx-color h2, .tx-color p {
+  color: rgb(68, 68, 68);
+}
+
+.ft-szh1 {
+  font-size: 28px;
+}
+
+.ft-szh2 {
+  font-size: 20px;
+}
+
+.ft-sz16 {
+  font-size: 16px;
+}
+
+.ft-sz14 {
+  font-size: 14px;
+}
+
+.ft-sz12 {
+  font-size: 12px;
+}
+
+/* Modificações no Bootstrap */
+@media (min-width: 992px) {
+  .navbar-nav .nav-item:not(:last-child) {
+    padding-right: 1rem;
+  }
+}/*# sourceMappingURL=style.css.map */
