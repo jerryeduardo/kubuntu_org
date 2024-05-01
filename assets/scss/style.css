@@ -6,28 +6,20 @@
   font-family: "Noto Sans", sans-serif;
 }
 
-.w-brand img {
-  width: 190px;
-}
-
 .bg-nav {
   background-color: rgb(255, 255, 255);
 }
 
-.bg-header {
-  background-color: rgb(206, 235, 255);
-}
-
 .bg-footer {
-  background-color: rgb(232, 234, 235);
+  background-color: rgb(45, 46, 47);
 }
 
-.tl-color h1 {
+.tl-color h1, h2, h3, h4 {
   color: rgb(68, 68, 68);
 }
 
-.tx-color h2, .tx-color p {
-  color: rgb(68, 68, 68);
+.tx-color p {
+  color: rgb(119, 119, 119);
 }
 
 .ft-szh1 {
@@ -35,6 +27,14 @@
 }
 
 .ft-szh2 {
+  font-size: 26px;
+}
+
+.ft-szh3 {
+  font-size: 18px;
+}
+
+.ft-szh4 {
   font-size: 20px;
 }
 
@@ -50,12 +50,52 @@
   font-size: 12px;
 }
 
-/* Modificações no Bootstrap */
+.w-brand img {
+  width: 190px;
+}
+
+.w-section-fuild {
+  width: 45%;
+}
+
+.my-8 {
+  margin-top: 4.8rem;
+  margin-bottom: 4.8rem;
+}
+
+.default-opacity:hover {
+  transition: 0.5s ease;
+  opacity: 1 !important;
+}
+
+.lk-secondary {
+  color: rgb(150, 149, 149);
+  text-decoration: none;
+}
+
+.lk-secondary:hover {
+  color: rgb(13, 110, 253);
+}
+
+@media (min-width: 576px) {
+  .w-section-fuild {
+    width: 35%;
+  }
+}
+@media (min-width: 768px) {
+  .w-section-fuild {
+    width: 25%;
+  }
+}
 @media (min-width: 992px) {
   .navbar-nav .nav-item:not(:last-child) {
     padding-right: 1rem;
   }
+  .w-section-fuild {
+    width: 45%;
+  }
 }
+/* Modificações no Bootstrap */
 .dropdown-item:hover {
   color: rgb(255, 255, 255);
   background-color: rgb(68, 68, 68);

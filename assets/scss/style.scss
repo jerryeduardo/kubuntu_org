@@ -1,27 +1,19 @@
 @import 'reset';
 @import 'variables';
 
-.w-brand img{
-    width: 190px;
-}
-
 .bg-nav{
     background-color: $primary-color;
-}
-
-.bg-header{
-    background-color: $bg-header-color;
 }
 
 .bg-footer{
     background-color: $bg-footer-color;
 }
 
-.tl-color h1{
-    color: $secondary-color;
+.tl-color h1,h2,h3,h4{
+    color: $tl-color;
 }
 
-.tx-color h2, .tx-color p{
+.tx-color p{
     color: $tx-color;
 }
 
@@ -30,6 +22,14 @@
 }
 
 .ft-szh2{
+    font-size: 26px;
+}
+
+.ft-szh3{
+    font-size: 18px;
+}
+
+.ft-szh4{
     font-size: 20px;
 }
 
@@ -45,14 +45,55 @@
     font-size: 12px;
 }
 
-/* Modificações no Bootstrap */
+.w-brand img{
+    width: 190px;
+}
+
+.w-section-fuild{
+    width: 45%;
+}
+
+.my-8{
+    margin-top: 4.8rem;
+    margin-bottom: 4.8rem;
+}
+
+.default-opacity:hover{
+    transition: 0.5s ease;
+    opacity: 1 !important;
+}
+
+.lk-secondary{
+    color: $lk-color;
+    text-decoration: none;
+}
+
+.lk-secondary:hover{
+    color: $lk-hover-color;
+}
+
+@media (min-width: 576px){
+    .w-section-fuild{
+        width: 35%;
+    }
+}
+
+@media (min-width: 768px){
+    .w-section-fuild{
+        width: 25%;
+    }
+}
 
 @media (min-width: 992px){
     .navbar-nav .nav-item:not(:last-child){
         padding-right: 1rem;
     }
+    .w-section-fuild{
+        width: 45%;
+    }
 }
 
+/* Modificações no Bootstrap */
 .dropdown-item:hover{
     color: $primary-color;
     background-color: $secondary-color;
