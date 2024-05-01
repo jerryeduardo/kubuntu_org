@@ -18,8 +18,30 @@
   color: rgb(68, 68, 68);
 }
 
+.tl-hover:hover {
+  color: rgb(13, 110, 253);
+}
+
 .tx-color p {
   color: rgb(119, 119, 119);
+}
+
+.lk-primary {
+  color: rgb(13, 110, 253);
+  text-decoration: none;
+}
+
+.lk-primary:hover {
+  color: rgb(119, 119, 119);
+}
+
+.lk-secondary {
+  color: rgb(150, 149, 149);
+  text-decoration: none;
+}
+
+.lk-secondary:hover {
+  color: rgb(13, 110, 253);
 }
 
 .ft-szh1 {
@@ -55,12 +77,11 @@
 }
 
 .w-section-fuild {
-  width: 45%;
+  width: 50%;
 }
 
-.my-8 {
-  margin-top: 4.8rem;
-  margin-bottom: 4.8rem;
+.my-7 {
+  margin-top: 4.2rem;
 }
 
 .default-opacity:hover {
@@ -68,23 +89,14 @@
   opacity: 1 !important;
 }
 
-.lk-secondary {
-  color: rgb(150, 149, 149);
-  text-decoration: none;
-}
-
-.lk-secondary:hover {
-  color: rgb(13, 110, 253);
-}
-
 @media (min-width: 576px) {
   .w-section-fuild {
-    width: 35%;
+    width: 40%;
   }
 }
 @media (min-width: 768px) {
   .w-section-fuild {
-    width: 25%;
+    width: 30%;
   }
 }
 @media (min-width: 992px) {
@@ -92,7 +104,7 @@
     padding-right: 1rem;
   }
   .w-section-fuild {
-    width: 45%;
+    width: 60%;
   }
 }
 /* Modificações no Bootstrap */
